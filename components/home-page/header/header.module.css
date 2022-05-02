@@ -1,0 +1,6 @@
+.header_home 
+{
+  background: url('../../../public/img/showcase.jpg') no-repeat center right/cover;
+  height: 100vh;
+  color: #fff; 
+}

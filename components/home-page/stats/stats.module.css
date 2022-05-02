@@ -1,0 +1,34 @@
+.stats
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    min-height: 200px;
+}
+.stats .hero{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+}
+
+.stats .hero h3{
+    font-size: 1.5rem;
+}
+
+.stats .hero p{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.stats .hero i{
+    color:#000;
+}
+
+.stats div:nth-child(odd) {
+    background: #f4f4f4;
+}
+.stats div:nth-child(even) {
+    background: #ccc;
+}
+

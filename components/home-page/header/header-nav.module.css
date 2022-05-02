@@ -1,0 +1,36 @@
+.main_nav 
+{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem; 
+}
+
+.main_nav ul 
+{
+    display: flex; 
+}
+
+.main_nav li 
+{
+    padding: 1rem 1.5rem;
+}
+
+.main_nav a 
+{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    border-bottom: 3px transparent solid;
+    padding-bottom: 0.5rem;
+    transition: border-color 0.5s;
+}
+
+.main_nav a:hover 
+ {
+      border-color: #ccc; 
+}
+
+.main_nav a.current 
+{
+    border-color: #ffbc00; 
+}

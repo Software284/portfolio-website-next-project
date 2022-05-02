@@ -1,0 +1,27 @@
+.special 
+{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1.5rem;
+  text-align: center; 
+}
+
+.special div i{
+  background-color: #fff;
+  color:#333;
+  font-size: 30px;
+}
+
+.special .process_step{
+  position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 28px;
+    background: #ffbc00;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    line-height: 15px;
+    padding: 1rem;
+    transition: all 1s;
+}
