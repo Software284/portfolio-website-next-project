@@ -1,0 +1,28 @@
+.testimonials{
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonials img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+
+.testimonials ul{
+    padding-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.testimonials p{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+.testimonials div{
+    width:24%;
+}

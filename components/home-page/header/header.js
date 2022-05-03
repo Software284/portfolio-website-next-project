@@ -1,12 +1,11 @@
-import Link from 'next/link';
 import classes from './header.module.css';
-import HeaderNav from './header-nav';
 import HeaderContent from './header-content';
+import NavFormat from '../../common-page/nav-format/nav-format';
 function HeaderComponent() {
   return (
     <header className={classes.header_home}>
       <div className="container">
-        <HeaderNav/>
+        <NavFormat/>
         <HeaderContent/>
       </div>
     </header>

@@ -1,0 +1,26 @@
+.about_content_one{
+    display:flex;
+    justify-content: space-between;
+}
+.about_content_one img{
+    width:35%;
+}
+.about_content_one .bio{
+    width:60%;
+}
+.about_content_one .bio{
+    border-left: 3px solid #ffbc00;
+    padding: 0.8rem; 
+}
+.award{
+    display: flex;
+}
+
+.award .item{
+    padding:1rem;
+}
+
+.award .item i{
+    color: #ffbc00;
+    padding-bottom: 0.4rem;
+}

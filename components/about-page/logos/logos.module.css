@@ -1,0 +1,7 @@
+.about_logos{
+    display: flex;
+}
+
+.about_logos img{
+    padding:20px;
+}
