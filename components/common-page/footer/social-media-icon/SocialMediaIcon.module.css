@@ -1,0 +1,13 @@
+.social{
+    display: flex;
+}
+.social div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 50px;
+    border:1px solid #fff;
+    width: 50px;
+    height: 50px;
+}

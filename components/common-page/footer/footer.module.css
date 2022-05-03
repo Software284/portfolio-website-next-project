@@ -1,0 +1,11 @@
+.main_footer{
+    background: #333;
+    color: #fff;
+}
+
+.main_footer .main_content{
+    display:flex;
+    justify-content: space-between;
+    height:5rem;
+    align-items: center;
+}
