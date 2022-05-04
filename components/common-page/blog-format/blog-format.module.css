@@ -1,0 +1,33 @@
+.blog_container{
+    padding:5rem;
+    position:relative;
+    color:#fff;
+}
+
+.blog_container h3{
+    position:absolute;
+    top:65%;
+    left:30%;
+    z-index: 101;
+}
+
+.blog_container .inner{
+    display:flex;
+    padding: 0 0.5rem ;
+    box-sizing: border-box;
+    justify-content: space-between;
+    position:absolute;
+    width:100%;
+    left:0;
+    bottom:0;
+    z-index:101;
+}
+.blog_container .backdrop {
+  position: absolute;
+  width: 100%;
+  height: 40%;
+  z-index: 100;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
