@@ -1,0 +1,21 @@
+.text_fields {
+  display: grid;
+  grid-template-areas: "name email" "subject phone" "message message";
+  grid-gap: 1.2rem;
+  margin-bottom: 1.2rem; }
+.text_fields .name_input {
+    grid-area: name; }
+.text_fields .subject_input {
+    grid-area: subject; }
+.text_fields .email_input {
+    grid-area: email; }
+.text_fields .phone_input {
+    grid-area: phone; }
+.text_fields .message_input {
+    grid-area: message;
+    height: 100px; }
+.text_fields .text_input {
+    padding: 0.5rem 1rem; }
+
+.btn{
+  width: 50%; }

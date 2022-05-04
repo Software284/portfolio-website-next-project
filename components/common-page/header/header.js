@@ -1,4 +1,4 @@
-import NavFormat from '../../common-page/nav-format/nav-format';
+import NavFormat from '../nav-format/nav-format';
 import classes from './header.module.css';
 function Header(){
     return (

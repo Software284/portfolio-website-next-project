@@ -1,4 +1,4 @@
-import Header from '../../components/about-page/header/header';
+import Header from '../../components/common-page/header/header';
 import AboutMe from '../../components/about-page/about-me/about-me';
 import TechnicalSkill from '../../components/about-page/technical-skill/technical-skill';
 import Logos from '../../components/about-page/logos/logos';

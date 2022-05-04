@@ -1,0 +1,11 @@
+.contact_info{
+    display: flex;
+}
+
+.contact_info *{
+    flex: 1;
+}
+
+.contact_info h1{
+    font-size: 4rem;
+}
