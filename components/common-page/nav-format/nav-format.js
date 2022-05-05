@@ -1,35 +1,29 @@
 import classes from './nav-format.module.css';
 import Link from "next/link";
 function NavFormat(){
+    const navItem = [
+      {id:"Home", url:"/"},
+      {id:"Blog", url:"/blog"},
+      {id:"Work", url:"/work"},
+      {id:"Contact", url:"/contact"},
+      {id:"About", url:"/about"}
+    ];
     return (
       <nav className={classes.main_nav}>
         <img src="img/logo.png" alt="My Portfolio" id="logo"></img>
         <ul>
-          <li>
-            <Link href="/">
-              <a className={classes.current}>Home</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/blog">
-              <a>Blog</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/work">
-              <a>Work</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/contact">
-              <a>Contact</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/about">
-              <a>About</a>
-            </Link>
-          </li>
+          {
+            navItem.map((nav) => (
+              <li key={nav.id}>
+                <Link href={{
+                  pathname: `${nav.url}`,
+                  query:{},
+                }}>
+                  <a className={classes.current}>{nav.id}</a>
+                </Link>
+              </li>
+            ))
+          }
         </ul>
       </nav>
     );

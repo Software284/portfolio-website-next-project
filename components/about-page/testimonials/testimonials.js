@@ -1,6 +1,7 @@
 import classes from './testimonials.module.css';
 import HeaderFormat from '../../common-page/header-format/header-fromat';
 import TestimonialFormat from '../../common-page/testimonials-format/testimonial-format';
+import { testimonials } from '../../../all-array';
 function Testimonials(){
     return (
       <section id="testimonials" class="py-4">
@@ -10,36 +11,17 @@ function Testimonials(){
             description="Take a look at what my clients say..."
           />
           <div className={classes.testimonials}>
-            <div>
-              <TestimonialFormat
-                message="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore eos vitae at exercitationem fugit voluptatibus dolorum quisquam ex aliquam aut neque harum corrupti, impedit repudiandae iure. Modi ratione sapiente vero!"
-                image="img/testimonials/person1.jpg"
-                address="Sam Smith,New York"
-              />
-            </div>
-            <div>
-                  <TestimonialFormat
-                    message="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore eos vitae at exercitationem fugit voluptatibus dolorum quisquam ex aliquam aut neque harum corrupti, impedit repudiandae iure. Modi ratione sapiente vero!"
-                    image="img/testimonials/person2.jpg"
-                    address="Sara Williams, Michigan"
-                  />
-            </div>
-            <div>
+            {testimonials.map((testimonial) => (
+              <div key={testimonial.id}>
                 <TestimonialFormat
-                    message="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore eos vitae at exercitationem fugit voluptatibus dolorum quisquam ex aliquam aut neque harum corrupti, impedit repudiandae iure. Modi ratione sapiente vero!"
-                    image="img/testimonials/person3.jpg"
-                    address="Jill Johnson, London"
+                  message={testimonial.message}
+                  image={testimonial.image}
+                  address={testimonial.address}
                 />
-            </div>
-            <div>
-                <TestimonialFormat
-                    message="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore eos vitae at exercitationem fugit voluptatibus dolorum quisquam ex aliquam aut neque harum corrupti, impedit repudiandae iure. Modi ratione sapiente vero!"
-                    image="img/testimonials/person4.jpg"
-                    address="Steve Thompson, Boston"
-                />
-                </div>
               </div>
-            </div>
+            ))}
+          </div>
+        </div>
       </section>
     );
 }

@@ -1,0 +1,51 @@
+.process_icon .process_step{
+  position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 28px;
+    background: #ffbc00;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    line-height: 15px;
+    padding: 1rem;
+    transition: all 1s;
+}
+
+.process_icon{
+  border-radius: 50%;
+    background: #333;
+    color: #fff;
+    padding: 2rem;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    position: relative;
+    transition: all 1s;
+    margin:auto;
+}
+
+.process_icon:hover{
+  background: #ffbc00;
+      width: 90px;
+      height: 90px;
+      line-height: 90px;
+}
+
+.item h3{
+  padding-top: 1rem;
+}
+
+.process_icon:hover .process_step{
+  background: #333; 
+}
+
+.item i{
+  background-color: #fff;
+  color:#333;
+  font-size: 30px;
+}
+
+.item{
+  margin:auto;
+}

@@ -12,6 +12,7 @@ function ContactMe(){
           />
           <form>
             <div className={classes.text_fields}>
+
               <input
                 type="text"
                 className={classes.text_input + " " + classes.name_input}
