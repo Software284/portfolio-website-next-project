@@ -3,6 +3,7 @@ import HeaderFormat from '../../common-page/header-format/header-fromat';
 import CVFormat from '../../common-page/cv-format/cv-format';
 import { cv } from '../../../all-array';
 function CV(){
+
     return (
       <section id="cv" class="text-center py-4">
         <div class="container">

@@ -2,6 +2,7 @@ import classes from './nav-format.module.css';
 import Link from "next/link";
 import { navItem } from "../../../all-array";
 function NavFormat(){
+
     return (
       <nav className={classes.main_nav}>
         <img src="img/logo.png" alt="My Portfolio" id="logo"></img>
