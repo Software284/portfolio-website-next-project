@@ -11,6 +11,7 @@ import {
   faAddressCard,
   faHourglassStart,
   faCodeBranch,
+  faCircleChevronRight
 } from "@fortawesome/free-solid-svg-icons";
 
  export const navItem = [
@@ -346,3 +347,126 @@ export const creative_process = [
        title: "FriendFeed",
      },
    ];
+
+export const knowldgeresume = [
+  {
+    id: "1",
+    icon: faCircleChevronRight,
+    header: "2007: HTML & CSS",
+    description:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi non error excepturi sapiente quam, vitae, atque, placeat autem nihil eos doloribus illo. Blanditiis, sunt, vitae dolorem asperiores aspernatur quos similique eius modi corrupti officiis fuga pariatur, iusto quis voluptatum architecto!",
+  },
+  {
+    id: "2",
+    icon: faCircleChevronRight,
+    header: "2007: HTML & CSS",
+    description:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi non error excepturi sapiente quam, vitae, atque, placeat autem nihil eos doloribus illo. Blanditiis, sunt, vitae dolorem asperiores aspernatur quos similique eius modi corrupti officiis fuga pariatur, iusto quis voluptatum architecto!",
+  },
+  {
+    id: "3",
+    icon: faCircleChevronRight,
+    header: "2008: Javascript & JQuery<",
+    description:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi non error excepturi sapiente quam, vitae, atque, placeat autem nihil eos doloribus illo. Blanditiis, sunt, vitae dolorem asperiores aspernatur quos similique eius modi corrupti officiis fuga pariatur, iusto quis voluptatum architecto!",
+  },
+  {
+    id: "4",
+    icon: faCircleChevronRight,
+    header: "2009: PHP & Wordpress",
+    description:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi non error excepturi sapiente quam, vitae, atque, placeat autem nihil eos doloribus illo. Blanditiis, sunt, vitae dolorem asperiores aspernatur quos similique eius modi corrupti officiis fuga pariatur, iusto quis voluptatum architecto!<",
+  },
+  {
+    id: "5",
+    icon: faCircleChevronRight,
+    header: "2011: Ruby on Rails",
+    description:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi non error excepturi sapiente quam, vitae, atque, placeat autem nihil eos doloribus illo. Blanditiis, sunt, vitae dolorem asperiores aspernatur quos similique eius modi corrupti officiis fuga pariatur, iusto quis voluptatum architecto!",
+  },
+  {
+    id: "6",
+    icon: faCircleChevronRight,
+    header: "2012: Python",
+    description:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi non error excepturi sapiente quam, vitae, atque, placeat autem nihil eos doloribus illo. Blanditiis, sunt, vitae dolorem asperiores aspernatur quos similique eius modi corrupti officiis fuga pariatur, iusto quis voluptatum architecto!",
+  },
+  {
+    id: "7",
+    icon: faCircleChevronRight,
+    header: "2013: Node.js & React",
+    description:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi non error excepturi sapiente quam, vitae, atque, placeat autem nihil eos doloribus illo. Blanditiis, sunt, vitae dolorem asperiores aspernatur quos similique eius modi corrupti officiis fuga pariatur, iusto quis voluptatum architecto!",
+  },
+  {
+    id: "8",
+    icon: faCircleChevronRight,
+    header: "2015: Angular and React Native",
+    description:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi non error excepturi sapiente quam, vitae, atque, placeat autem nihil eos doloribus illo. Blanditiis, sunt, vitae dolorem asperiores aspernatur quos similique eius modi corrupti officiis fuga pariatur, iusto quis voluptatum architecto!",
+  },
+  {
+    id: "9",
+    icon: faCircleChevronRight,
+    header: "2016: Vue.js",
+    description:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi non error excepturi sapiente quam, vitae, atque, placeat autem nihil eos doloribus illo. Blanditiis, sunt, vitae dolorem asperiores aspernatur quos similique eius modi corrupti officiis fuga pariatur, iusto quis voluptatum architecto!",
+  },
+  {
+    id: "10",
+    icon: faCircleChevronRight,
+    header: "2017: GraphQI & Apollo",
+    description:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi non error excepturi sapiente quam, vitae, atque, placeat autem nihil eos doloribus illo. Blanditiis, sunt, vitae dolorem asperiores aspernatur quos similique eius modi corrupti officiis fuga pariatur, iusto quis voluptatum architecto!",
+  },
+  {
+    id: "11",
+    icon: faCircleChevronRight,
+    header: "2018: Machine Learning",
+    description:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi non error excepturi sapiente quam, vitae, atque, placeat autem nihil eos doloribus illo. Blanditiis, sunt, vitae dolorem asperiores aspernatur quos similique eius modi corrupti officiis fuga pariatur, iusto quis voluptatum architecto!",
+  },
+];
+
+export const cv = [
+  {
+    id: "1",
+    section_id: "page-1",
+    section_class: "page",
+    header: "Welcome To My Presentation",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae rerum consequuntur ipsam aliquid! Ipsam iste nisi velit corporis cum quod, nemo labore officiis. Atque doloribus id, deserunt provident minus veritatis! Officia laborum nam illo rem. Voluptas, officia beatae esse itaque alias illum eos repellat provident iste, qui architecto dicta distinctio aut natus! Voluptatem eligendi atque aperiam distinctio earum itaque incidunt?",
+    btn_prev: null,
+    btn_next: "#page-2",
+  },
+  {
+    id: "2",
+    section_id: "page-2",
+    section_class: "page",
+    header: "Page-2",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam saepe necessitatibus commodi labore corporis iusto exercitationem pariatur sit nulla iste minima, dicta sunt repudiandae, voluptates quod molestiae id iure fuga.",
+    btn_prev: "#page-1",
+    btn_next: "#page-3",
+  },
+  {
+    id: "3",
+    section_id: "page-3",
+    section_class: "page",
+    header: "Page-3",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam saepe necessitatibus commodi labore corporis iusto exercitationem pariatur sit nulla iste minima, dicta sunt repudiandae, voluptates quod molestiae id iure fuga.",
+    btn_prev: "#page-2",
+    btn_next: "#page-4",
+  },
+  {
+    id: "4",
+    section_id: "page-4",
+    section_class:"page",
+    header: "Presentation 4",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam saepe necessitatibus commodi labore corporis iusto exercitationem pariatur sit nulla iste minima, dicta sunt repudiandae, voluptates quod molestiae id iure fuga.",
+    btn_prev: "#page-3",
+    btn_next: null,
+  },
+];

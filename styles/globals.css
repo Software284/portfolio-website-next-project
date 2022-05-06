@@ -252,6 +252,81 @@ input[class^="btn-"]:hover
     margin: 0; }
 
 
+/* presentation */
+#page-1{background:steelblue}
+#page-2{background:tan}
+#page-3{background:teal}
+#page-4{background:slateblue}
+
+.page{
+    display:flex;
+    flex-direction: column;
+    height:100%;
+    /* height:500px; */
+    box-sizing: border-box;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    padding:0 4rem;
+}
+.page h1{
+    font-size: 4rem;
+    line-height: 1.2;
+    margin:1rem;
+}
+
+.page div a{
+  margin:20px 20px;
+}
+.page p{
+    font-size: 1.3rem;
+
+}
+.btn{
+    display: inline-block;
+    padding:1rem 2rem;
+    background:#f4f4f4;
+    color:#333;
+    text-decoration: none;
+    border:none;
+    margin-top:1rem;
+    font-size:1.1rem;
+    transition:all 0.3s ease-in;
+}
+.btn:hover,.btn-dark{
+    background:#333;
+    color:#fff;
+}
+.btn-dark:hover{
+    background:#f4f4f4;
+    color:#333;
+}
+
+#page-1 h1 {
+    transform:translateY(-1200px);
+    animation:heading 1s forwards  ease-in;
+}
+/* Keyframes */
+@keyframes heading {
+    to{
+        transform: translateY(0);
+    }
+}
+
+#page-1 p {
+    transform:translateX(-1800px);
+    animation:text 1s forwards  ease-in 2s;
+
+}
+
+@keyframes text {
+    to{
+        transform: translateY(0);
+    }
+}
+
+
+
 
 
 
