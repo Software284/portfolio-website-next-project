@@ -5,17 +5,17 @@
   padding-top: 1rem; 
 }
 
-.main_nav ul 
+.menu
 {
     display: flex; 
 }
 
-.main_nav li 
+.menuItem
 {
     padding: 1rem 1.5rem;
 }
 
-.main_nav a 
+.menuItems
 {
     text-decoration: none;
     color: #fff;
@@ -30,7 +30,8 @@
       border-color: #ccc; 
 }
 
-.main_nav a.current 
+.current 
 {
     border-color: #ffbc00; 
+    
 }

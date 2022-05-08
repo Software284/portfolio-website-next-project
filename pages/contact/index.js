@@ -7,11 +7,9 @@ import Footer from '../../components/common-page/footer/footer';
 function ContactPage(){
     return(
         <Auxuliary>
-            <Header/>
             <ContactMe/>
             <ContactMedium/>
             <TagLine/>
-            <Footer/>
         </Auxuliary>
     );
 }

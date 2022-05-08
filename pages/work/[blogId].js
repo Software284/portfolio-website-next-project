@@ -11,9 +11,7 @@ function DynamicContentPage() {
 
     return (
         <Auxiliary>
-            <Header/>
             <BlogContent id={blogId}/>
-            <Footer/>
         </Auxiliary>
        
     );

@@ -6,10 +6,8 @@ import Footer from '../../components/common-page/footer/footer';
 function WorkPage(){
     return(
         <Auxiliary>
-            <Header/>
             <Projects/>
             <Blog/>
-            <Footer/>
         </Auxiliary>
     );
 }

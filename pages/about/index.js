@@ -8,12 +8,10 @@ import Auxiliary from '../../hoc/Auxiliary/Auxiliary';
 function AboutPage(){
     return (
       <Auxiliary>
-        <Header />
         <AboutMe />
         <TechnicalSkill />
         <Logos/>
         <Testimonials/>
-        <Footer/>
       </Auxiliary>
     );
 }

@@ -6,10 +6,8 @@ import Footer from '../../components/common-page/footer/footer';
 function MyBioData(){
     return (
         <Auxiliary>
-            <Header/>
             <KnowldgeResumeSection/>
             <CV/>
-            <Footer/>
         </Auxiliary>
     );
 }
