@@ -1,9 +1,8 @@
 import BoxContentFormat from "../../common-page/box-content-format/box-content-format";
 import HeaderFormat from "../../common-page/header-format/header-fromat";
 import classes from './specialize.module.css';
-import { getAllSpecialize } from "../../../helpers/index-page-api-util";
-
-function Specialize(props){
+import {specialize} from "../../../all-array";
+function Specialize(){
     return (
       <section id="home-a" class="text-center py-2">
         <div class="container">
@@ -13,7 +12,7 @@ function Specialize(props){
           mobile applications"
           />
           <div className={classes.special}>
-            {props.specialize.map((special) => (
+            {specialize.map((special) => (
               <div>
                 <BoxContentFormat
                   icon={special.icon}
@@ -28,12 +27,12 @@ function Specialize(props){
     );
 }
 
-export async function getStaticProps(){
-  const specialize = await getAllSpecialize();
-  return {
-    props: {
-      specialize: specialize
-    },
-  };
-}
+// export async function getStaticProps(){
+//   const specialize = await getAllSpecialize();
+//   return {
+//     props: {
+//       specialize: specialize
+//     },
+//   };
+// }
 export default Specialize;
