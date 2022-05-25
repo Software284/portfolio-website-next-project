@@ -1,6 +1,14 @@
 import Auxiliary from '../../../hoc/Auxiliary/Auxiliary';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faThumbsUp,
+  faObjectUngroup,
+  faDesktop,
+  faFileAlt,
+} from "@fortawesome/free-solid-svg-icons";
 function BoxContentFormat(props){
+
+  
     return (
       <Auxiliary>
         <i>

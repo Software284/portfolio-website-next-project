@@ -1,8 +1,7 @@
 import HeaderFormat from "../../common-page/header-format/header-fromat";
 import classes from './creative-process.module.css';
 import CreativeFormat from "../../common-page/creative-format/creative-format";
-import { creative_process } from "../../../all-array";
-function CreativeProcess() {
+function CreativeProcess(props) {
   return (
     <section id="home-c" class="text-center py-2">
       <div class="container">
@@ -13,7 +12,7 @@ function CreativeProcess() {
         />
         <div className={classes.special}>
               {
-                creative_process.map((creative)=> (
+                props.creative_process.map((creative)=> (
                 <CreativeFormat icon={creative.icon} badge={creative.badge} heading={creative.heading} description={creative.description}/>
               ))
               }

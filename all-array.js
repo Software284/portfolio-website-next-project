@@ -362,77 +362,77 @@ export const knowldgeresume = [
   {
     id: "1",
     icon: faCircleChevronRight,
-    header: "2007: HTML & CSS",
+    header: "2012: Programming in C",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi non error excepturi sapiente quam, vitae, atque, placeat autem nihil eos doloribus illo. Blanditiis, sunt, vitae dolorem asperiores aspernatur quos similique eius modi corrupti officiis fuga pariatur, iusto quis voluptatum architecto!",
   },
   {
     id: "2",
     icon: faCircleChevronRight,
-    header: "2007: HTML & CSS",
+    header: "2013: Programming in C++",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi non error excepturi sapiente quam, vitae, atque, placeat autem nihil eos doloribus illo. Blanditiis, sunt, vitae dolorem asperiores aspernatur quos similique eius modi corrupti officiis fuga pariatur, iusto quis voluptatum architecto!",
   },
   {
     id: "3",
     icon: faCircleChevronRight,
-    header: "2008: Javascript & JQuery<",
+    header: "2014: HTML and CSS",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi non error excepturi sapiente quam, vitae, atque, placeat autem nihil eos doloribus illo. Blanditiis, sunt, vitae dolorem asperiores aspernatur quos similique eius modi corrupti officiis fuga pariatur, iusto quis voluptatum architecto!",
   },
   {
     id: "4",
     icon: faCircleChevronRight,
-    header: "2009: PHP & Wordpress",
+    header: "2015: Programming in Java",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi non error excepturi sapiente quam, vitae, atque, placeat autem nihil eos doloribus illo. Blanditiis, sunt, vitae dolorem asperiores aspernatur quos similique eius modi corrupti officiis fuga pariatur, iusto quis voluptatum architecto!<",
   },
   {
     id: "5",
     icon: faCircleChevronRight,
-    header: "2011: Ruby on Rails",
+    header: "2016: Servlet and Jsp & JSTL",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi non error excepturi sapiente quam, vitae, atque, placeat autem nihil eos doloribus illo. Blanditiis, sunt, vitae dolorem asperiores aspernatur quos similique eius modi corrupti officiis fuga pariatur, iusto quis voluptatum architecto!",
   },
   {
     id: "6",
     icon: faCircleChevronRight,
-    header: "2012: Python",
+    header: "2017: Spring Framework",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi non error excepturi sapiente quam, vitae, atque, placeat autem nihil eos doloribus illo. Blanditiis, sunt, vitae dolorem asperiores aspernatur quos similique eius modi corrupti officiis fuga pariatur, iusto quis voluptatum architecto!",
   },
   {
     id: "7",
     icon: faCircleChevronRight,
-    header: "2013: Node.js & React",
+    header: "2018: Database Management System With Oracle",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi non error excepturi sapiente quam, vitae, atque, placeat autem nihil eos doloribus illo. Blanditiis, sunt, vitae dolorem asperiores aspernatur quos similique eius modi corrupti officiis fuga pariatur, iusto quis voluptatum architecto!",
   },
   {
     id: "8",
     icon: faCircleChevronRight,
-    header: "2015: Angular and React Native",
+    header: "2019: Hibernate",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi non error excepturi sapiente quam, vitae, atque, placeat autem nihil eos doloribus illo. Blanditiis, sunt, vitae dolorem asperiores aspernatur quos similique eius modi corrupti officiis fuga pariatur, iusto quis voluptatum architecto!",
   },
   {
     id: "9",
     icon: faCircleChevronRight,
-    header: "2016: Vue.js",
+    header: "2020: React Js",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi non error excepturi sapiente quam, vitae, atque, placeat autem nihil eos doloribus illo. Blanditiis, sunt, vitae dolorem asperiores aspernatur quos similique eius modi corrupti officiis fuga pariatur, iusto quis voluptatum architecto!",
   },
   {
     id: "10",
     icon: faCircleChevronRight,
-    header: "2017: GraphQI & Apollo",
+    header: "2021: Microservices & Next Js",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi non error excepturi sapiente quam, vitae, atque, placeat autem nihil eos doloribus illo. Blanditiis, sunt, vitae dolorem asperiores aspernatur quos similique eius modi corrupti officiis fuga pariatur, iusto quis voluptatum architecto!",
   },
   {
     id: "11",
     icon: faCircleChevronRight,
-    header: "2018: Machine Learning",
+    header: "2018: Docker and Kubernates",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi non error excepturi sapiente quam, vitae, atque, placeat autem nihil eos doloribus illo. Blanditiis, sunt, vitae dolorem asperiores aspernatur quos similique eius modi corrupti officiis fuga pariatur, iusto quis voluptatum architecto!",
   },

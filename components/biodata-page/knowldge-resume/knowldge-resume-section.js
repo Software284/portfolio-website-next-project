@@ -1,8 +1,7 @@
 import classes from './knowldge-resume-section.module.css';
 import HeaderFormat from '../../common-page/header-format/header-fromat';
 import KnowldgeResume from '../../common-page/knowldge-resume-format/knowldge-resume';
-import { knowldgeresume } from '../../../all-array';
-function KnowldgeResumeSection(){
+function KnowldgeResumeSection(props){
     return (
       <section id="knowldge-resume" class="text-center py-4">
         <div class="container">
@@ -12,11 +11,11 @@ function KnowldgeResumeSection(){
           />
           <section id="timeline" className={classes.timeline+" "+classes.knowldge_resume}>
             <ul>
-              {knowldgeresume.map((resume) => (
+              {props.knowldge_resume.map((resume) => (
                 <li key={resume.id} className={classes.show}>
                   <KnowldgeResume
                     icon={resume.icon}
-                    header={resume.header}
+                    header={resume.heading}
                     description={resume.description}
                   />
                 </li>
