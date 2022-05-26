@@ -2,8 +2,7 @@ import classes from './about-me.module.css';
 import HeaderFormat from '../../common-page/header-format/header-fromat';
 import BoxContentFormat from '../../common-page/box-content-format/box-content-format';
 import { faAward } from "@fortawesome/free-solid-svg-icons";
-import { awardBoxContent } from '../../../all-array';
-function AboutMe(){
+function AboutMe(props){
    
     return (
       <section id="about-me" class="text-center py-3">
@@ -25,7 +24,7 @@ function AboutMe(){
             </div>
           </div>
           <div className={classes.award + " py-3"}>
-            {awardBoxContent.map((item) => (
+            {props.awards.map((item) => (
               <div className={classes.item} key={item.id}>
                 <BoxContentFormat
                   icon={faAward}

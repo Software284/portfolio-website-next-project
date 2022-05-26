@@ -4,7 +4,7 @@ function ProgressBar(props){
       <h4>
         {props.title}
         <div className={classes.progress}>
-          <div style={{width:props.percent}}></div>
+          <div style={{width:props.percent+'%'}}></div>
         </div>
       </h4>
     );
