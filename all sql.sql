@@ -1,22 +1,4 @@
-/* specialize API */
-CREATE SEQUENCE specialize_seq
-  MINVALUE 1
-  START WITH 1
-  INCREMENT BY 1
-  CACHE 20;
 
-create table specialize(
-  id number(10) not null,
-  icon varchar2(20) not null,
-  heading varchar2(15) not null,
-  description varchar2(150) not null,
-  constraint specialize_pk primary key(id)
-  );
-
-insert into specialize values(1,'faFile','Concepting','Concepting is the process of taking any idea, expanding on it and creating new and different versions and variations of it. This comes with the mind.');
-insert into specialize values(2,'faDesktop','Visual Design','Visual design aims to improve a design’s product’s aesthetic appeal and usability with suitable images, typography, space, layout and color.');
-insert into specialize values(3,'faObjectUngroup','UI/UX','User interface (UI) design is the process designers use to build interfaces in software & computerized devices,  focusing on looks or style of object.');
-insert into specialize values(4,'faThumbsUp','Interactions','the direct effect that one kind of particle has on another, in particular, in inducing the emission or absorption of one particle by another.');
   
   
   /* Stats API */
@@ -38,28 +20,6 @@ create table stats(
   insert into stats values(3,'faHourglassStart','Hours Worked','3500');
   insert into stats values(4,'faCodeBranch','Projects Completed','135');
 
-
-
-  /* Creative Process API */
-  CREATE SEQUENCE creative_process_seq
-  MINVALUE 1
-  START WITH 1
-  INCREMENT BY 1
-  CACHE 20;
-
-create table creative_process(
-  id number(10) not null,
-  icon varchar2(50) not null,
-  badge number(10) not null,
-  heading varchar2(50) not null,
-  description varchar2(100) not null,
-  constraint creative_process_pk primary key(id)
-  );
-
-  insert into creative_process values(1,'faFileAlt','1','Discuss The Project','A roadmap that will guide teams from creating a project plan throughout the project’s execution and closure phases is developed comprehensively during the planning stage.resources must be allotted.');
-  insert into creative_process values(2,'faDesktop','6','Brainstorming ^ Concept','Brainstorming is a method of generating ideas and sharing knowledge to solve a particular commercial or technical problem, in which participants are encouraged to think without interruption in tasks.');
-  insert into creative_process values(3,'faObjectUngroup','3','Interactions','From the old way of contain and deflect to a new way of engage and delight. it enhances the communication between the team member. the quality of the project development increases effectively.');
-  insert into creative_process values(4,'faThumbsUp','5','UI/UX Planning','A UX/UI roadmap is a high-level overview of the plans and goals relating to a product’s user experience, user interface, and user research. Product teams use these roadmaps to success in project.');
 
 
   /* Knowldge Resume API */
@@ -106,24 +66,7 @@ create table contact_detail(
   constraint contact_detail_pk primary key(id)
   );
 
-  /* Contact Medium API */
-  CREATE SEQUENCE contact_medium_seq
-  MINVALUE 1
-  START WITH 1
-  INCREMENT BY 1
-  CACHE 20;
-
-create table contact_medium(
-  id number(10) not null,
-  icon varchar2(25) not null,
-  heading varchar2(15) not null,
-  description varchar2(50) not null,
-  constraint contact_meidum_pk primary key(id)
-  );
   
-  insert into contact_medium values(1,'faEnvelope','Email','maheshlamichhane048');
-  insert into contact_medium values(2,'faPhone','Phone','(+977) 9818567284');
-  insert into contact_medium values(3,'faAddressCard','Address','Narayansthan-8, Baglung, Nepal');
 
   /* Skill Progress Bar API */
 
@@ -202,7 +145,7 @@ insert into blog_content values(7,'Bayern Vs Frankfurt','img/items/item3.png','1
 insert into blog_content values(8,'Free Marijuana','img/items/item1.png','07-JUL-2021','Amstardam, Netherland','Amsterdam counts about 160 coffeeshops and most of them are located in the Red Light District. From psychedelic to hipster-ish but also from very local ones to more touristic places, each of Amsterdam coffeeshops has its own atmosphere. You can find some notable examples categorised at the bottom of this page.');
   
   
-
+h
 /* Testimonials API */
   CREATE SEQUENCE testimonials_seq
   MINVALUE 1
@@ -214,11 +157,17 @@ insert into blog_content values(8,'Free Marijuana','img/items/item1.png','07-JUL
 
 create table testimonials(
   id number(10) not null,
-  message varchar2(50) not null,
+  message varchar2(230) not null,
   image varchar2(100) not null,
   address varchar2(50) not null,
   constraint testimonials_pk primary key(id)
   );
+  
+  insert into testimonials values(1,'Mahesh help to  break down what i was trying to figure out and even reflect on certain aspects of my business that i needed to dig deeper to understand and clear minded. i.e my ideal client market and the benefits i was providing.','img/testimonials/person1.jpg','Sam Smith,New York');
+  insert into testimonials values(2,'Mahesh is a great listener and is always present and focused. the content planning strategy he provided is invaluable. i can see how when i put it into action it will enable me to grow my business while still working full time.','img/testimonials/person2.jpg','Sara Williams, Michigan');
+  insert into testimonials values(3,'Mahesh is a talented at pushing right throuhg any struggles to find out what you need most and what your business needs most and how he can accomplish those goals. he prepared the planning in detail before solving any problem.','img/testimonials/person3.jpg','Jill Johnson, London');
+  insert into testimonials values(4,'Mahesh was truly a collaborative partner in projet dev, and made it fun to work on a website project instread of stresful.
+  he  sense of humuor is amazing and personality is truly inspiring.i feel good after worked with him.','img/testimonials/person4.jpg','Steve Thompson, Boston');
 
   /* projects API */
     CREATE SEQUENCE projects_seq

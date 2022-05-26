@@ -6,13 +6,14 @@ import Testimonials from '../../components/about-page/testimonials/testimonials'
 import {getAllAwards} from '../../helpers/about-page/awards-api-utils';
 import {getAllSkillProgressbarData} from '../../helpers/about-page/skill-progressbar-api-utils';
 import Auxiliary from '../../hoc/Auxiliary/Auxiliary';
+import {getAllTestimonials} from '../../helpers/about-page/testimonials.api-utils';
 function AboutPage(props){
     return (
       <Auxiliary>
         <AboutMe awards={props.award} />
         <TechnicalSkill skill_progressbar={props.skill} />
         <Logos />
-        <Testimonials />
+        <Testimonials testimonials={props.testi}/>
       </Auxiliary>
     );
 }
@@ -20,10 +21,12 @@ function AboutPage(props){
 export async function getStaticProps() {
   const allawards = await getAllAwards();
   const allskillprogressbar = await getAllSkillProgressbarData();
+  const alltestimonials = await getAllTestimonials();
   return {
     props: {
       award: allawards,
-      skill: allskillprogressbar
+      skill: allskillprogressbar,
+      testi: alltestimonials
     },
   };
 }

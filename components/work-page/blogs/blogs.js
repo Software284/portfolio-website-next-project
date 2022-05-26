@@ -1,9 +1,8 @@
 import classes from './blogs.module.css';
 import HeaderFormat from '../../common-page/header-format/header-fromat';
 import BlogFormat from '../../common-page/blog-format/blog-format';
-import { blogs } from '../../../all-array';
 import { useRouter } from 'next/router';
-function Blog(){
+function Blog(props){
   const router = useRouter();
   function blogPostClickedHandler(id){
     router.push('/work/'+id);
@@ -16,11 +15,11 @@ function Blog(){
             description="Here are my dailly activities"
           />
           <div className={classes.blog_content}>
-            {blogs.map((blog) => (
+            {props.blogs.map((blog) => (
               <BlogFormat
                 key={blog.id}
                 title={blog.title}
-                url={blog.url}
+                url={blog.image}
                 date={blog.date}
                 location={blog.location}
                 clicked={blogPostClickedHandler.bind(this,blog.id)}

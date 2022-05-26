@@ -1,6 +1,7 @@
 import BoxContentFormat from "../../common-page/box-content-format/box-content-format";
 import HeaderFormat from "../../common-page/header-format/header-fromat";
 import classes from './specialize.module.css';
+import {specialize} from '../../../all-array';
 function Specialize(props){
     return (
       <section id="home-a" class="text-center py-2">
@@ -11,7 +12,7 @@ function Specialize(props){
           mobile applications"
           />
           <div className={classes.special}>
-            {props.specialize.map((special) => (
+            {specialize.map((special) => (
               <div>
                 <BoxContentFormat
                   icon={special.icon}
