@@ -18,7 +18,8 @@ export async function getStaticProps(){
   return {
     props:{
       stats:allstats
-    }
+    },
+    revalidate:30
   }
 }
 export default HomePage;

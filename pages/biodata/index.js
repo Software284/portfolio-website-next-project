@@ -17,6 +17,7 @@ export async function getStaticProps() {
     props: {
       knowldge_resume: allknowldgeresume,
     },
+    revalidate:30
   };
 }
 

@@ -10,3 +10,12 @@ export async function getAllBlogs() {
   }
   return blogs;
 }
+
+
+export async function getBlogsById(id) {
+  const blogs = await getAllBlogs();
+  const data = blogs.find((blog) => blog.id.toString() === id);
+  return data;
+}
+
+

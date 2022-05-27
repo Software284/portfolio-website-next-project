@@ -27,13 +27,6 @@ import {
    { id: "About", url: "/about" },
  ];
 
-export const logos = [
-  { id: "1", url: "img/about-logos/logo-envato.png" },
-  { id: "2", url: "img/about-logos/logo-wordpress.png" },
-  { id: "3", url: "img/about-logos/logo-woocommerce.png" },
-  { id: "4", url: "img/about-logos/logo-magento.png" },
-];
-
 
 
 export const contact_medium = [

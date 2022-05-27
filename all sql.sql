@@ -10,15 +10,14 @@
 
 create table stats(
   id number(10) not null,
-  icon varchar2(20) not null,
   heading varchar2(25) not null,
   description varchar2(10) not null,
   constraint stats_pk primary key(id)
   );
-  insert into stats values(1,'faUsers','Clients','100');
-  insert into stats values(2,'faAward','Award','3');
-  insert into stats values(3,'faHourglassStart','Hours Worked','3500');
-  insert into stats values(4,'faCodeBranch','Projects Completed','135');
+  insert into stats values(1,'Clients','100');
+  insert into stats values(2,'Award','3');
+  insert into stats values(3,'Hours Worked','3500');
+  insert into stats values(4,'Projects Completed','135');
 
 
 
@@ -235,6 +234,25 @@ insert into project values(6,'img/items/item6.png','Design Concept','Bezier Curv
 insert into project values(7,'img/items/item7.png','Photogrphy','Dock Ponder');
 insert into project values(8,'img/items/item8.png','Web Applications','Restaurant App');
 insert into project values(9,'img/items/item9.png','Portfolio App','Portfolio');
+
+/* Partners API */
+ CREATE SEQUENCE partners_seq
+  MINVALUE 1
+  START WITH 1
+  INCREMENT BY 1
+  CACHE 20;
+  
+  create table partners(
+  id number(10) not null,
+  url varchar2(50) not null,
+  constraint partners_pk primary key(id)
+  );
+  
+  insert into partners values(1,'img/about-logos/logo-envato.png');
+  insert into partners values(2,'img/about-logos/logo-wordpress.png');
+  insert into partners values(3,'img/about-logos/logo-woocommerce.png');
+  insert into partners values(4,'img/about-logos/logo-magento.png');
+  insert into partners values(5,'img/about-logos/hehe.png');
 
   
   

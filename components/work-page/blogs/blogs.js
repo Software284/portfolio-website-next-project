@@ -3,6 +3,7 @@ import HeaderFormat from '../../common-page/header-format/header-fromat';
 import BlogFormat from '../../common-page/blog-format/blog-format';
 import { useRouter } from 'next/router';
 function Blog(props){
+  console.log('Hero='+props.blogs);
   const router = useRouter();
   function blogPostClickedHandler(id){
     router.push('/work/'+id);
