@@ -20,7 +20,6 @@ export async function getStaticProps() {
       projects: allprojects,
       blogs: allblogs
     },
-    revalidate:30
   };
 }
 export default WorkPage;

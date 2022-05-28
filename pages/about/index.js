@@ -31,7 +31,6 @@ export async function getStaticProps() {
       testi: alltestimonials,
       partner: allpartners,
     },
-    revalidate:30
   };
 }
 export default AboutPage;

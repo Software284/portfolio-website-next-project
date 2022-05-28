@@ -1,33 +1,24 @@
-import classes from './card.module.css';
-import {useState} from 'react';
-import {AnimateSharedLayout} from 'framer-motion';
-function Card(props){
-    const [expanded,setExpanded] = useState(false);
-    return(
-        <AnimateSharedLayout>
-            {
-                expanded? (
-                    'expanded'
-                ):
-                <CompactCard param={props}/>
-            }
-        </AnimateSharedLayout>
-    );
-}
+import React, { useState } from "react";
+import { AnimateSharedLayout } from "framer-motion";
+import ExpandedCard from "./ExpandedCard/ExpandedCard";
+import CompactCard from "./CompatCard/compatcard";
 
-function CompactCard({param}){
-    const Png = param.png;
-    return(
-        <div className="CompactCard">
-            <div className="radialBar">
-                Chart
-            </div>
-            <div classname="detail">
-                <Png/>
-                <span>${param.value}</span>
-                <span>Last 24 Hours</span>
-            </div>
-        </div>
-    )
-}
+const Card = (props) => {
+  const [expanded, setExpanded] = useState(false);
+  return (
+    <AnimateSharedLayout>
+      {expanded ? (
+        <ExpandedCard param={props} setExpanded={() => setExpanded(false)} />
+      ) : (
+        <CompactCard param={props} setExpanded={() => setExpanded(true)} />
+      )}
+    </AnimateSharedLayout>
+  );
+};
+
+// Compact Card
+
+
+
+
 export default Card;

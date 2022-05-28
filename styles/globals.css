@@ -325,6 +325,46 @@ input[class^="btn-"]:hover
     }
 }
 
+/* circular progressbar */
+.CircularProgressbar{
+    width:4rem !important;
+    overflow:visible;
+}
+
+.CircularProgressbar-path{
+    stroke: white !important;
+    stroke-width: 12px !important;
+    filter: drop-shadow(2px 4px 6px white);
+}
+
+.CircularProgressbar-trail{
+    display:none;
+}
+
+.CircularProgressbar-text{
+    fill: white !important;
+    font-size:20px;
+    
+}
+
+
+/* .MuiTableHead-root>*{
+    padding:10px;
+}
+
+.MuiTableRow-root .MuiTableRow-head>*{
+    font-weight: bold !important;
+}
+.MuiTableRow-root{
+  border:none !important;
+} */
+
+
+
+
+
+
+
 
 
 
