@@ -6,7 +6,7 @@ function MainDash(){
       <div className={classes.MainDash}>
         <h1>Dashboard </h1>
         <Cards />
-        <h3>Recent Orders</h3>
+        <h3>Recent Projects</h3>
         <Table />
       </div>
     );
